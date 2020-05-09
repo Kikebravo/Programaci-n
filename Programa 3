@@ -1,0 +1,9 @@
+cadena = str(input("Ingresa un mensaje: "))
+lista = list(cadena)
+longitud = 0
+for i in range(len(cadena)):
+    if lista[longitud] == "a" or lista[longitud] == "A" or lista[longitud] == "e" or lista[longitud] == "E" or lista[longitud] == "i" or lista[longitud] == "I" or lista[longitud] == "o" or lista[longitud] == "O" or lista[longitud] == "u" or lista[longitud] == "U":
+        print("", end="")
+    else:
+        print(lista[longitud], end="")   
+    longitud += 1
